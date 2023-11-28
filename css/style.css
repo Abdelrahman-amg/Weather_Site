@@ -1,0 +1,77 @@
+body
+{
+    background-color: #1e202b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.navbar
+{
+    background-color: #1e202b !important;
+}
+.navbar .navbar-collapse {
+    /*flex-basis: 100%;*/
+    flex-grow: 0;
+    align-items: center;
+}
+.navbar-toggler
+{
+    background-color: #009ad8;
+}
+.nav-link 
+{
+    border-color:#009ad8 !important;
+}
+/*==============================================================================*/
+
+section 
+{
+    background-image: url('../image/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.location
+{
+    background-color: #1e202b;
+    border-color: transparent;
+}
+
+.btn
+{
+    background-color:#009ad8
+}
+
+.row
+{
+    font-size: 15px;
+}
+
+.col-lg-4
+{
+    background-color: #2f313d;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 20px;
+}
+/*=============================================================================================*/
+
+.footers
+{
+    background-color: #2f313d;
+}
+.foot-icons i
+{
+  background-color: #1e202b;
+  color: #009ad8;
+  font-size: 25px;
+  padding: 10px;
+  transition-property: color  background-color;
+  transition-duration: 0.6s;
+}
+.foot-icons i:hover
+{
+    background-color: #009ad8;
+    color: white;
+    cursor: pointer;
+}

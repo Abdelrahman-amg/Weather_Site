@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid p-3 ">
+
+            <div class="logo d-flex p-2 align-items-center text-white">
+                <img src="image/logo@2x.png" class="me-3" width="90" alt="logo">
+                <p>weather</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse w-50" id="navbarSupportedContent">
+                <ul class="navbar-nav  w-100 d-flex justify-content-around p-3">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link active text-white" aria-current="page" href="#">News</a>
+                    </li>
+                    <li class=" nav-item ">
+                        <a class="  nav-link active text-white" aria-current="page" href="#">live cameras</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="  nav-link active text-white" aria-current="page" href="#">photos</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link active text-white" aria-current="page" href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ====================================================================================== -->
+
+    <section>
+        <div class="container py-5 d-flex ">
+            <input type="text" id="searchInput" placeholder="Find Your Location..." class="location form-control rounded-pill p-3">
+            <button id="searchInputBtn" class="btn rounded-pill text-white px-5 py-0 translate-middle-x">find</button>
+        </div>
+        <div class="weather container w-75  py-4 mt-4">
+
+             <div class="row" id="daysWeather">
+
+                
+            </div>
+        </div>
+        
+       
+        <div class=" footers py-4 mt-4 ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8">
+                    <div class="items d-flex justify-content-center">
+                        <input type="text" placeholder="Enter Your Email To Subscribe..." class="location form-control rounded-pill p-3">
+                        <button class="btn rounded-pill text-white px-3 py-0 translate-middle-x">Subscribe</button>
+                    </div>
+                </div>
+                <div class="foot-icons col-md-4 mt-2 d-flex justify-content-between align-items-center rounded-circle">
+                    <i class="fa-brands fa-facebook rounded-circle"></i>
+                    <i class="fa-brands fa-twitter rounded-circle"></i>
+                    <i class="fa-brands fa-google rounded-circle"></i>
+                    <i class="fa-brands fa-github rounded-circle"></i>
+                </div>
+              </div>
+              <p class="text-light mt-4 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================================================= -->
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
